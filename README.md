@@ -61,7 +61,8 @@ sudo apt-get install trivy
 
 # **Install Docker Scout:**
 ```
-docker login       `Give Dockerhub credentials here`
+docker login -u Docker_User_name
+Password
 ```
 ```
 curl -sSfL https://raw.githubusercontent.com/docker/scout-cli/main/install.sh | sh -s -- -b /usr/local/bin
